@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ownCloud\n"
 "Report-Msgid-Bugs-To: http://bugs.owncloud.org/\n"
-"POT-Creation-Date: 2012-10-16 02:04+0200\n"
-"PO-Revision-Date: 2012-10-16 00:05+0000\n"
+"POT-Creation-Date: 2012-10-18 02:03+0200\n"
+"PO-Revision-Date: 2012-10-18 00:04+0000\n"
 "Last-Translator: I Robot <thomas.mueller@tmit.eu>\n"
 "Language-Team: Japanese (Japan) (http://www.transifex.com/projects/p/owncloud/language/ja_JP/)\n"
 "MIME-Version: 1.0\n"
@@ -125,16 +125,12 @@ msgid "Error while changing permissions"
 msgstr "権限変更でエラー発生"
 
 #: js/share.js:130
-msgid "Shared with you and the group"
-msgstr "あなたとグループで共有中"
-
-#: js/share.js:130
-msgid "by"
-msgstr "により"
+msgid "Shared with you and the group {group} by {owner}"
+msgstr ""
 
 #: js/share.js:132
-msgid "Shared with you by"
-msgstr "あなたと共有"
+msgid "Shared with you by {owner}"
+msgstr ""
 
 #: js/share.js:137
 msgid "Share with"
@@ -174,12 +170,8 @@ msgid "Resharing is not allowed"
 msgstr "再共有は許可されていません"
 
 #: js/share.js:250
-msgid "Shared in"
-msgstr "の中で共有中"
-
-#: js/share.js:250
-msgid "with"
-msgstr "と"
+msgid "Shared in {item} with {user}"
+msgstr ""
 
 #: js/share.js:271
 msgid "Unshare"
@@ -325,7 +317,7 @@ msgid ""
 "strongly suggest that you configure your webserver in a way that the data "
 "directory is no longer accessible or you move the data directory outside the"
 " webserver document root."
-msgstr ""
+msgstr "データディレクトリとファイルが恐らくインターネットからアクセスできるようになっています。ownCloudが提供する .htaccessファイルが機能していません。データディレクトリを全くアクセスできないようにするか、データディレクトリをウェブサーバのドキュメントルートの外に置くようにウェブサーバを設定することを強くお勧めします。 "
 
 #: templates/installation.php:36
 msgid "Create an <strong>admin account</strong>"
@@ -382,17 +374,17 @@ msgstr "ログアウト"
 
 #: templates/login.php:8
 msgid "Automatic logon rejected!"
-msgstr ""
+msgstr "自動ログインは拒否されました！"
 
 #: templates/login.php:9
 msgid ""
 "If you did not change your password recently, your account may be "
 "compromised!"
-msgstr ""
+msgstr "最近パスワードを変更していない場合、あなたのアカウントは危険にさらされているかもしれません。"
 
 #: templates/login.php:10
 msgid "Please change your password to secure your account again."
-msgstr ""
+msgstr "アカウント保護の為、パスワードを再度の変更をお願いいたします。"
 
 #: templates/login.php:15
 msgid "Lost your password?"
@@ -420,14 +412,14 @@ msgstr "次"
 
 #: templates/verify.php:5
 msgid "Security Warning!"
-msgstr ""
+msgstr "セキュリティ警告！"
 
 #: templates/verify.php:6
 msgid ""
 "Please verify your password. <br/>For security reasons you may be "
 "occasionally asked to enter your password again."
-msgstr ""
+msgstr "パスワードの確認をお願いします。<br/>セキュリティ上の理由により、時々パスワードの再入力をお願いする場合があります。"
 
 #: templates/verify.php:16
 msgid "Verify"
-msgstr ""
+msgstr "確認"

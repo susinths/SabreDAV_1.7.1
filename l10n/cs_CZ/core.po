@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ownCloud\n"
 "Report-Msgid-Bugs-To: http://bugs.owncloud.org/\n"
-"POT-Creation-Date: 2012-10-16 02:04+0200\n"
-"PO-Revision-Date: 2012-10-16 00:05+0000\n"
+"POT-Creation-Date: 2012-10-18 02:03+0200\n"
+"PO-Revision-Date: 2012-10-18 00:04+0000\n"
 "Last-Translator: I Robot <thomas.mueller@tmit.eu>\n"
 "Language-Team: Czech (Czech Republic) (http://www.transifex.com/projects/p/owncloud/language/cs_CZ/)\n"
 "MIME-Version: 1.0\n"
@@ -127,16 +127,12 @@ msgid "Error while changing permissions"
 msgstr "Chyba při změně oprávnění"
 
 #: js/share.js:130
-msgid "Shared with you and the group"
-msgstr "S Vámi a skupinou"
-
-#: js/share.js:130
-msgid "by"
-msgstr "sdílí"
+msgid "Shared with you and the group {group} by {owner}"
+msgstr ""
 
 #: js/share.js:132
-msgid "Shared with you by"
-msgstr "S Vámi sdílí"
+msgid "Shared with you by {owner}"
+msgstr ""
 
 #: js/share.js:137
 msgid "Share with"
@@ -176,12 +172,8 @@ msgid "Resharing is not allowed"
 msgstr "Sdílení již sdílené položky není povoleno"
 
 #: js/share.js:250
-msgid "Shared in"
-msgstr "Sdíleno v"
-
-#: js/share.js:250
-msgid "with"
-msgstr "s"
+msgid "Shared in {item} with {user}"
+msgstr ""
 
 #: js/share.js:271
 msgid "Unshare"
@@ -327,7 +319,7 @@ msgid ""
 "strongly suggest that you configure your webserver in a way that the data "
 "directory is no longer accessible or you move the data directory outside the"
 " webserver document root."
-msgstr ""
+msgstr "Váš adresář dat a všechny Vaše soubory jsou pravděpodobně přístupné z internetu. Soubor .htaccess, který je poskytován ownCloud, nefunguje. Důrazně Vám doporučujeme nastavit váš webový server tak, aby nebyl adresář dat přístupný, nebo přesunout adresář dat mimo kořenovou složku dokumentů webového serveru."
 
 #: templates/installation.php:36
 msgid "Create an <strong>admin account</strong>"
@@ -384,17 +376,17 @@ msgstr "Odhlásit se"
 
 #: templates/login.php:8
 msgid "Automatic logon rejected!"
-msgstr ""
+msgstr "Automatické přihlášení odmítnuto."
 
 #: templates/login.php:9
 msgid ""
 "If you did not change your password recently, your account may be "
 "compromised!"
-msgstr ""
+msgstr "V nedávné době jste nezměnili své heslo, Váš účet může být kompromitován."
 
 #: templates/login.php:10
 msgid "Please change your password to secure your account again."
-msgstr ""
+msgstr "Změňte, prosím, své heslo pro opětovné zabezpečení Vašeho účtu."
 
 #: templates/login.php:15
 msgid "Lost your password?"
@@ -422,14 +414,14 @@ msgstr "následující"
 
 #: templates/verify.php:5
 msgid "Security Warning!"
-msgstr ""
+msgstr "Bezpečnostní upozornění."
 
 #: templates/verify.php:6
 msgid ""
 "Please verify your password. <br/>For security reasons you may be "
 "occasionally asked to enter your password again."
-msgstr ""
+msgstr "Ověřte, prosím, své heslo. <br/>Z bezpečnostních důvodů můžete být občas požádáni o jeho opětovné zadání."
 
 #: templates/verify.php:16
 msgid "Verify"
-msgstr ""
+msgstr "Ověřit"

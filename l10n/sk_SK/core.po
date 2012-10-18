@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ownCloud\n"
 "Report-Msgid-Bugs-To: http://bugs.owncloud.org/\n"
-"POT-Creation-Date: 2012-10-16 02:04+0200\n"
-"PO-Revision-Date: 2012-10-16 00:05+0000\n"
+"POT-Creation-Date: 2012-10-18 02:03+0200\n"
+"PO-Revision-Date: 2012-10-18 00:04+0000\n"
 "Last-Translator: I Robot <thomas.mueller@tmit.eu>\n"
 "Language-Team: Slovak (Slovakia) (http://www.transifex.com/projects/p/owncloud/language/sk_SK/)\n"
 "MIME-Version: 1.0\n"
@@ -126,16 +126,12 @@ msgid "Error while changing permissions"
 msgstr "Chyba počas zmeny oprávnení"
 
 #: js/share.js:130
-msgid "Shared with you and the group"
-msgstr "Zdieľané s vami a so skupinou"
-
-#: js/share.js:130
-msgid "by"
-msgstr "od"
+msgid "Shared with you and the group {group} by {owner}"
+msgstr ""
 
 #: js/share.js:132
-msgid "Shared with you by"
-msgstr "Zdieľané s vami od"
+msgid "Shared with you by {owner}"
+msgstr ""
 
 #: js/share.js:137
 msgid "Share with"
@@ -175,12 +171,8 @@ msgid "Resharing is not allowed"
 msgstr ""
 
 #: js/share.js:250
-msgid "Shared in"
+msgid "Shared in {item} with {user}"
 msgstr ""
-
-#: js/share.js:250
-msgid "with"
-msgstr "s"
 
 #: js/share.js:271
 msgid "Unshare"
@@ -188,7 +180,7 @@ msgstr "Zrušiť zdieľanie"
 
 #: js/share.js:283
 msgid "can edit"
-msgstr ""
+msgstr "môže upraviť"
 
 #: js/share.js:285
 msgid "access control"
@@ -305,7 +297,7 @@ msgstr "Pridať"
 
 #: templates/installation.php:23 templates/installation.php:31
 msgid "Security Warning"
-msgstr ""
+msgstr "Bezpečnostné varovanie"
 
 #: templates/installation.php:24
 msgid ""
@@ -383,7 +375,7 @@ msgstr "Odhlásiť"
 
 #: templates/login.php:8
 msgid "Automatic logon rejected!"
-msgstr ""
+msgstr "Automatické prihlásenie bolo zamietnuté!"
 
 #: templates/login.php:9
 msgid ""
@@ -421,7 +413,7 @@ msgstr "ďalej"
 
 #: templates/verify.php:5
 msgid "Security Warning!"
-msgstr ""
+msgstr "Bezpečnostné varovanie!"
 
 #: templates/verify.php:6
 msgid ""
@@ -431,4 +423,4 @@ msgstr ""
 
 #: templates/verify.php:16
 msgid "Verify"
-msgstr ""
+msgstr "Overenie"

@@ -8,8 +8,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ownCloud\n"
 "Report-Msgid-Bugs-To: http://bugs.owncloud.org/\n"
-"POT-Creation-Date: 2012-10-16 02:04+0200\n"
-"PO-Revision-Date: 2012-10-16 00:05+0000\n"
+"POT-Creation-Date: 2012-10-18 02:03+0200\n"
+"PO-Revision-Date: 2012-10-18 00:04+0000\n"
 "Last-Translator: I Robot <thomas.mueller@tmit.eu>\n"
 "Language-Team: Spanish (Argentina) (http://www.transifex.com/projects/p/owncloud/language/es_AR/)\n"
 "MIME-Version: 1.0\n"
@@ -124,16 +124,12 @@ msgid "Error while changing permissions"
 msgstr "Error al cambiar permisos"
 
 #: js/share.js:130
-msgid "Shared with you and the group"
-msgstr "Compartido con vos y con el grupo"
-
-#: js/share.js:130
-msgid "by"
-msgstr "por"
+msgid "Shared with you and the group {group} by {owner}"
+msgstr ""
 
 #: js/share.js:132
-msgid "Shared with you by"
-msgstr "Compartido con vos por"
+msgid "Shared with you by {owner}"
+msgstr ""
 
 #: js/share.js:137
 msgid "Share with"
@@ -173,12 +169,8 @@ msgid "Resharing is not allowed"
 msgstr "No se permite volver a compartir"
 
 #: js/share.js:250
-msgid "Shared in"
-msgstr "Compartido en"
-
-#: js/share.js:250
-msgid "with"
-msgstr "con"
+msgid "Shared in {item} with {user}"
+msgstr ""
 
 #: js/share.js:271
 msgid "Unshare"
@@ -202,7 +194,7 @@ msgstr "actualizar"
 
 #: js/share.js:294
 msgid "delete"
-msgstr "remover"
+msgstr "borrar"
 
 #: js/share.js:297
 msgid "share"
@@ -238,7 +230,7 @@ msgstr "Pedido"
 
 #: lostpassword/templates/lostpassword.php:8
 msgid "Login failed!"
-msgstr "¡Fallo al iniciar sesión!"
+msgstr "¡Error al iniciar sesión!"
 
 #: lostpassword/templates/lostpassword.php:11 templates/installation.php:38
 #: templates/login.php:20
@@ -251,7 +243,7 @@ msgstr "Solicitar restablecimiento"
 
 #: lostpassword/templates/resetpassword.php:4
 msgid "Your password was reset"
-msgstr "Tu contraseña ha sido restablecida"
+msgstr "Tu contraseña fue restablecida"
 
 #: lostpassword/templates/resetpassword.php:5
 msgid "To login page"
@@ -291,7 +283,7 @@ msgstr "Acceso denegado"
 
 #: templates/404.php:12
 msgid "Cloud not found"
-msgstr "No se encontró owncloud"
+msgstr "No se encontró ownCloud"
 
 #: templates/edit_categories_dialog.php:4
 msgid "Edit categories"
@@ -299,23 +291,23 @@ msgstr "Editar categorías"
 
 #: templates/edit_categories_dialog.php:14
 msgid "Add"
-msgstr "Añadir"
+msgstr "Agregar"
 
 #: templates/installation.php:23 templates/installation.php:31
 msgid "Security Warning"
-msgstr ""
+msgstr "Advertencia de seguridad"
 
 #: templates/installation.php:24
 msgid ""
 "No secure random number generator is available, please enable the PHP "
 "OpenSSL extension."
-msgstr ""
+msgstr "No hay disponible ningún generador de números aleatorios seguro. Por favor habilitá la extensión OpenSSL de PHP."
 
 #: templates/installation.php:26
 msgid ""
 "Without a secure random number generator an attacker may be able to predict "
 "password reset tokens and take over your account."
-msgstr ""
+msgstr "Sin un generador de números aleatorios seguro un atacante podría predecir los tokens de reinicio de tu contraseña y tomar control de tu cuenta."
 
 #: templates/installation.php:32
 msgid ""
@@ -324,11 +316,11 @@ msgid ""
 "strongly suggest that you configure your webserver in a way that the data "
 "directory is no longer accessible or you move the data directory outside the"
 " webserver document root."
-msgstr ""
+msgstr "Tu directorio de datos y tus archivos son probablemente accesibles desde internet. El archivo .htaccess provisto por ownCloud no está funcionando. Te sugerimos que configures tu servidor web de manera que el directorio de datos ya no esté accesible, o que muevas el directorio de datos afuera del directorio raíz de tu servidor web."
 
 #: templates/installation.php:36
 msgid "Create an <strong>admin account</strong>"
-msgstr "Creá una <strong>cuenta de administrador</strong>"
+msgstr "Crear una <strong>cuenta de administrador</strong>"
 
 #: templates/installation.php:48
 msgid "Advanced"
@@ -381,17 +373,17 @@ msgstr "Cerrar la sesión"
 
 #: templates/login.php:8
 msgid "Automatic logon rejected!"
-msgstr ""
+msgstr "¡El inicio de sesión automático fue rechazado!"
 
 #: templates/login.php:9
 msgid ""
 "If you did not change your password recently, your account may be "
 "compromised!"
-msgstr ""
+msgstr "¡Si no cambiaste tu contraseña recientemente, puede ser que tu cuenta esté comprometida!"
 
 #: templates/login.php:10
 msgid "Please change your password to secure your account again."
-msgstr ""
+msgstr "Por favor, cambiá tu contraseña para fortalecer nuevamente la seguridad de tu cuenta."
 
 #: templates/login.php:15
 msgid "Lost your password?"
@@ -419,14 +411,14 @@ msgstr "siguiente"
 
 #: templates/verify.php:5
 msgid "Security Warning!"
-msgstr ""
+msgstr "¡Advertencia de seguridad!"
 
 #: templates/verify.php:6
 msgid ""
 "Please verify your password. <br/>For security reasons you may be "
 "occasionally asked to enter your password again."
-msgstr ""
+msgstr "Por favor, verificá tu contraseña. <br/>Por razones de seguridad, puede ser que que te pregunte ocasionalmente la contraseña."
 
 #: templates/verify.php:16
 msgid "Verify"
-msgstr ""
+msgstr "Verificar"

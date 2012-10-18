@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ownCloud\n"
 "Report-Msgid-Bugs-To: http://bugs.owncloud.org/\n"
-"POT-Creation-Date: 2012-10-16 02:04+0200\n"
-"PO-Revision-Date: 2012-10-16 00:05+0000\n"
+"POT-Creation-Date: 2012-10-18 02:03+0200\n"
+"PO-Revision-Date: 2012-10-18 00:04+0000\n"
 "Last-Translator: I Robot <thomas.mueller@tmit.eu>\n"
 "Language-Team: Italian (http://www.transifex.com/projects/p/owncloud/language/it/)\n"
 "MIME-Version: 1.0\n"
@@ -128,16 +128,12 @@ msgid "Error while changing permissions"
 msgstr "Errore durante la modifica dei permessi"
 
 #: js/share.js:130
-msgid "Shared with you and the group"
-msgstr "Condiviso con te e con il gruppo"
-
-#: js/share.js:130
-msgid "by"
-msgstr "da"
+msgid "Shared with you and the group {group} by {owner}"
+msgstr ""
 
 #: js/share.js:132
-msgid "Shared with you by"
-msgstr "Condiviso con te da"
+msgid "Shared with you by {owner}"
+msgstr ""
 
 #: js/share.js:137
 msgid "Share with"
@@ -177,12 +173,8 @@ msgid "Resharing is not allowed"
 msgstr "La ri-condivisione non è consentita"
 
 #: js/share.js:250
-msgid "Shared in"
-msgstr "Condiviso in"
-
-#: js/share.js:250
-msgid "with"
-msgstr "con"
+msgid "Shared in {item} with {user}"
+msgstr ""
 
 #: js/share.js:271
 msgid "Unshare"
@@ -328,7 +320,7 @@ msgid ""
 "strongly suggest that you configure your webserver in a way that the data "
 "directory is no longer accessible or you move the data directory outside the"
 " webserver document root."
-msgstr ""
+msgstr "La cartella dei dati e i tuoi file sono probabilmente accessibili da Internet. Il file .htaccess fornito da ownCloud non funziona. Ti suggeriamo vivamente di configurare il server web in modo che la cartella dei dati non sia più accessibile o sposta tale cartella fuori dalla radice del sito."
 
 #: templates/installation.php:36
 msgid "Create an <strong>admin account</strong>"
@@ -385,17 +377,17 @@ msgstr "Esci"
 
 #: templates/login.php:8
 msgid "Automatic logon rejected!"
-msgstr ""
+msgstr "Accesso automatico rifiutato."
 
 #: templates/login.php:9
 msgid ""
 "If you did not change your password recently, your account may be "
 "compromised!"
-msgstr ""
+msgstr "Se non hai cambiato la password recentemente, il tuo account potrebbe essere stato compromesso."
 
 #: templates/login.php:10
 msgid "Please change your password to secure your account again."
-msgstr ""
+msgstr "Cambia la password per rendere nuovamente sicuro il tuo account."
 
 #: templates/login.php:15
 msgid "Lost your password?"
@@ -423,14 +415,14 @@ msgstr "successivo"
 
 #: templates/verify.php:5
 msgid "Security Warning!"
-msgstr ""
+msgstr "Avviso di sicurezza"
 
 #: templates/verify.php:6
 msgid ""
 "Please verify your password. <br/>For security reasons you may be "
 "occasionally asked to enter your password again."
-msgstr ""
+msgstr "Verifica la tua password.<br/>Per motivi di sicurezza, potresti ricevere una richiesta di digitare nuovamente la password."
 
 #: templates/verify.php:16
 msgid "Verify"
-msgstr ""
+msgstr "Verifica"
